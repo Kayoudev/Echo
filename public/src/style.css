@@ -16,6 +16,17 @@ body {
     min-height: 100vh;
 }
 
+.banner-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.banner {
+    max-width: 200px;
+    height: auto;
+    opacity: 0.8;
+}
+
 .titre {
     margin: 20px 0;
     font-size: 32px;
