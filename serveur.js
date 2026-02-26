@@ -6,7 +6,8 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-app.use(express.static("public"));
+app.use(express.static("public/src"));
+app.use("/assets", express.static("public/assets"));
 
 wss.on("connection", (ws) => {
     console.log("Un utilisateur connecté");
