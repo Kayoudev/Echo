@@ -25,12 +25,12 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 
 1. Clonez le repository sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repository.git
+   git clone https://github.com/Kayoudev/Echo.git
    ```
 
 2. Accédez au dossier du projet :
    ```bash
-   cd votre-repository
+   cd Echo
    ```
 
 3. Installez les dépendances nécessaires :
